@@ -1,0 +1,75 @@
+.MuiAppBar-colorPrimary {
+  background-color: #253046 !important;
+}
+
+.ToDoAppTitle {
+  text-align: center;
+  width: 100%;
+}
+
+.form_container {
+  background-color: #fff;
+  position: fixed;
+  bottom:0;
+  width: 100vw;
+  padding: 20px;
+}
+
+.form_container input {
+  width:90%;
+  font-size: 100%;
+  border:1px solid grey;
+}
+
+.form_container input:focus {
+  outline: 0;
+}
+
+.form_container_inner {
+  display:-webkit-box;
+display:-webkit-flex;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center;
+}
+
+.ToDo_ul {
+  list-style-type: none;
+}
+
+.ToDo_li {
+    text-align: left;
+    position:relative;
+    background:#84E249;
+    width: 400px;
+    padding:10px;
+    color:#333;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:26px;
+    -webkit-border-radius:26px;
+    -moz-border-radius:26px;
+    margin-left: calc(100% - 450px);
+    margin-bottom: 20px;
+}
+
+.ToDo_li:after {
+    border: solid transparent;
+    content:'';
+    height:0;
+    width:0;
+    pointer-events:none;
+    position:absolute;
+    border-color: rgba(0, 153, 255, 0);
+    border-top-width:10px;
+    border-bottom-width:10px;
+    border-left-width:29px;
+    border-right-width:29px;
+    margin-top: -10px;
+    border-left-color:#84E249;
+    left:99%;
+    top:50%;
+}

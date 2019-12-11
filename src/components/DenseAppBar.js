@@ -25,7 +25,7 @@ export default function DenseAppBar() {
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" color="inherit">
+          <Typography variant="h6" color="inherit" className="ToDoAppTitle">
             ToDo List
           </Typography>
         </Toolbar>
